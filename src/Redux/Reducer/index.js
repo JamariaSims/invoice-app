@@ -1,4 +1,3 @@
-import React from 'react'
 
 const initialState = {}
 const Reducer = (state=initialState,action) => {
@@ -8,3 +7,5 @@ const Reducer = (state=initialState,action) => {
         }
     }
 }
+
+export default Reducer
